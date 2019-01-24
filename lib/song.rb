@@ -14,8 +14,7 @@ class Song
     @@artists << artist
     @@genres << genre
   end  
-  
-<<<<<<< HEAD
+
   def self.new(name, artist, genre)
     
   end
@@ -40,12 +39,6 @@ class Song
   def self.artists
     
   end  
-=======
->>>>>>> 327f3bddc9bdb1b027107bff327c36029e5185fe
-  
- 
-  
-
 end  
 
 
