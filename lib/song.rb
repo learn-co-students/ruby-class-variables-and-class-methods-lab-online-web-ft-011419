@@ -17,8 +17,24 @@ class Song
     @@count += 1
   end  
   
+  def self.new(name, artist, genre)
+    
+  end
+  
+  def name
+     @name = name
+  end  
+  
+  def self.artist 
+    @artist = artist
+  end  
+  
+  def self.genre
+    @genre = genre 
+  end
+  
   def self.count
-    @@count
+    
   end  
   
   def self.genres 
@@ -38,6 +54,7 @@ class Song
   
   end  
   
+
 end  
 
 
