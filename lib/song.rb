@@ -15,6 +15,7 @@ class Song
     @@genres << genre
   end  
   
+<<<<<<< HEAD
   def self.new(name, artist, genre)
     
   end
@@ -39,14 +40,10 @@ class Song
   def self.artists
     
   end  
+=======
+>>>>>>> 327f3bddc9bdb1b027107bff327c36029e5185fe
   
-  def self.genre_count
-  
-  end
-  
-  def self.artist_count 
-  
-  end  
+ 
   
 
 end  
